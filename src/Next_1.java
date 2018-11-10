@@ -9,4 +9,3 @@ public class Next_1 {
         System.out.println(lol);
     }
 }
-
