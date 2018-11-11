@@ -7,5 +7,8 @@ public class Next_1 {
         ursakar_E_Krid.setPassword("dsfs");
        Person lol=new Person("oo","ll","aa",123)   ;
         System.out.println(lol);
+        lol.show();
+        String wrem = lol.show("241");
+        System.out.println(wrem);
     }
 }

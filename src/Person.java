@@ -4,6 +4,29 @@ public class Person {
     String email;
     int capcha;
 
+    public void show () {
+        System.out.println(login+" "+password);
+    }
+
+    public String show (String newPass) {
+        if (newPass.equals(password)) {
+            return "пароли совпадают";
+        }
+         else {
+            password=newPass;
+            return login+" "+password;
+        }
+    }
+
+    public void validate(int newCapcha){
+        if (newCapcha==capcha && capcha == 1){
+            System.out.println("Получены права админа");
+        } else System.out.println("Получены права юзера");
+
+
+    }
+
+
     public Person() {
     }
 
